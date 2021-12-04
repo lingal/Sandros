@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg version="1.1" id="svg2" xml:space="preserve" width="332.81137" height="115.2906" viewBox="0 0 332.81137 115.29061" sodipodi:docname="logo.svg" inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)" inkscape:export-filename="C:\Users\galum\Desktop\Sandros\asset\logo1.png" inkscape:export-xdpi="83.267845" inkscape:export-ydpi="83.267845"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg">
+  <defs id="defs6">
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath18">
+      <path d="M 0,100 H 250 V 0 H 0 Z" id="path16" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview id="namedview4" pagecolor="#ffffff" bordercolor="#999999" borderopacity="1" inkscape:pageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="0" showgrid="false" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" inkscape:zoom="4.5659999" inkscape:cx="40.18835" inkscape:cy="66.688569" inkscape:window-width="1920" inkscape:window-height="991" inkscape:window-x="2391" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:current-layer="g8" />
+  <g id="g8" inkscape:groupmode="layer" inkscape:label="Sandros_logo" transform="matrix(1.3333333,0,0,-1.3333333,0,133.33333)">
+    <g id="g12">
+      <g id="g14" clip-path="url(#clipPath18)">
+        <text transform="matrix(0.99821939,0.08733242,0.05964941,-0.68179251,2.8858,32.8875)" style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:68.2404px;font-family:Romantica;-inkscape-font-specification:Romantica;writing-mode:lr-tb;fill: #ed7768;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text22">
+          <tspan x="0 42.036091 89.804382 109.62822 131.80635 152.75616 169.67978" y="0" sodipodi:role="line" id="tspan20">Sﬂdra K</tspan>
+        </text>
+      </g>
+    </g>
+    <text transform="matrix(1,0,0,-1,57.248,20.3887)" style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Microsoft Yi Baiti';-inkscape-font-specification:Microsoft-Yi-Baiti;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text26">
+      <tspan sodipodi:role="line" id="tspan24" x="0" y="0" />
+    </text>
+  </g>
+</svg>

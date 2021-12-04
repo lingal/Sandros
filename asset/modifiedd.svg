@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 291.19442 170.9185"
+   version="1.1"
+   sodipodi:docname="modifiedd.svg"
+   width="291.19443"
+   height="170.9185"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs848" />
+  <sodipodi:namedview
+     id="namedview846"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.1057902"
+     inkscape:cx="15.825786"
+     inkscape:cy="70.085624"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="2391"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g19638" />
+  <title
+     id="title837">Sandros_logo</title>
+  <text
+     font-size="12px"
+     fill="#ffffff"
+     font-family="Microsoft-Yi-Baiti, 'Microsoft Yi Baiti'"
+     font-style="italic"
+     letter-spacing="0.2em"
+     id="text843"
+     x="-308.49826"
+     y="267.52344" />
+  <metadata
+     id="metadata930">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Sandros_logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g19638"
+     transform="translate(-367.15826,184.48344)">
+    <rect
+       style="fill:#ffff00;fill-rule:evenodd;stroke-width:0.848875"
+       id="rect19306"
+       width="291.19443"
+       height="170.9185"
+       x="367.15826"
+       y="-184.48344" />
+    <text
+       transform="matrix(1.203492,-0.10716025,0.07418786,0.8243096,0,0)"
+       font-size="56.6535px"
+       fill="#231f20"
+       font-family="Romantica"
+       id="text841"
+       x="328.46274"
+       y="-59.050999"
+       style="stroke-width:1.21314"><tspan
+         style="fill:#ffffff"
+         id="tspan22026">Sandra K</tspan></text>
+  </g>
+</svg>

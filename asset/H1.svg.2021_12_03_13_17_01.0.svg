@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="75.08387"
+   height="100.71309"
+   viewBox="0 0 19.86594 26.647"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="H1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="3.5578344"
+     inkscape:cx="-6.8862115"
+     inkscape:cy="43.987432"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="2391"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="px"
+     width="77.26538px"
+     height="67.098701px" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient156345">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop156341" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop156343" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient154583"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#ed7768;stop-opacity:1;"
+         offset="0"
+         id="stop154581" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient152646"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#ed7768;stop-opacity:1;"
+         offset="0"
+         id="stop152644" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient44646"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop44644" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient44646"
+       id="linearGradient204945"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.4433366,0,0,1.4433367,-31.97568,-39.841448)"
+       x1="85.592285"
+       y1="88.543716"
+       x2="106.03542"
+       y2="88.543716" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient156345"
+       id="linearGradient204949"
+       x1="91.610931"
+       y1="85.665649"
+       x2="111.74238"
+       y2="85.665649"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-85.635546,-78.317793)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15.2752px;line-height:0.95;font-family:sans-serif;letter-spacing:0px;fill:url(#linearGradient204945);fill-opacity:1;stroke:url(#linearGradient204949);stroke-width:0.0529167;stroke-miterlimit:4;stroke-dasharray:none"
+       x="90.675232"
+       y="83.416649"
+       id="text3884"
+       transform="scale(0.93479314,1.0697554)"><tspan
+         sodipodi:role="line"
+         id="tspan3882"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Franklin Gothic Demi Cond';-inkscape-font-specification:'Franklin Gothic Demi Cond';fill:none;fill-opacity:1;stroke:#ed7768;stroke-width:0.0529167;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.866667"
+         x="90.675232"
+         y="83.416649">HE</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Franklin Gothic Demi Cond';-inkscape-font-specification:'Franklin Gothic Demi Cond';fill:none;fill-opacity:1;stroke:#ed7768;stroke-width:0.0529167;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.866667"
+         x="90.675232"
+         y="97.939011"
+         id="tspan17194">LLO</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#ed7768;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="103.5843"
+       y="104.66997"
+       id="text188561"><tspan
+         sodipodi:role="line"
+         id="tspan188559"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';fill:#ed7768;fill-opacity:1;stroke-width:0.264583"
+         x="103.5843"
+         y="104.66997">.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="57.673779"
+       y="82.33358"
+       id="text1739"><tspan
+         sodipodi:role="line"
+         id="tspan1737"
+         style="stroke-width:0.264583"
+         x="57.673779"
+         y="82.33358">I'm Sandra.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.70417px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="117.6131"
+       y="89.695854"
+       id="text7881"><tspan
+         sodipodi:role="line"
+         id="tspan7879"
+         style="font-size:3.70417px;stroke-width:0.264583"
+         x="117.6131"
+         y="89.695854">Freelance bookkeeper</tspan></text>
+  </g>
+</svg>
