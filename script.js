@@ -1,23 +1,20 @@
-const navBtn = document.querySelector('.header-btn');
-const showMenu = document.querySelector('.navbar-menu');
-const topLineEl = document.querySelector('.top-line');
-const midLineEl = document.querySelector('.middle-line');
-const bottomLineEl = document.querySelector('.bottom-line');
-const aboutBtn = document.querySelector('.about-btn');
-const servicesBtn = document.querySelector('.services-btn');
-const mainRightEl = document.querySelector('.main-right');
+// buttons
+const navBtn = document.getElementById('nav-btn');
 
-navBtn.addEventListener('click', function() {
-  showMenu.classList.toggle('hidden');
-  topLineEl.classList.toggle('show-top-line');
-  midLineEl.classList.toggle('show-middle-line');
-  bottomLineEl.classList.toggle('show-bottom-line');
+//nav button items
+const lineTop = document.querySelector('.line-top');
+const lineMid = document.querySelector('.line-middle');
+const lineBottom = document.querySelector('.line-bottom');
+
+//elements
+const navMenuEl = document.querySelector('.sm-screen-nav');
+
+
+
+navBtn.addEventListener('click', function () {
+  console.log('click');
+  navMenuEl.classList.toggle('show-nav-menu');
+  lineTop.classList.toggle('line-top-rotate');
+  lineMid.classList.toggle('line-middle-hide');
+  lineBottom.classList.toggle('line-bottom-rotate');
 })
-
-aboutBtn.addEventListener('mouseover', function() {
-  mainRightEl.style.backgroundImage = "url('/assets/images/bg/bg.jpg')";
-});
-
-servicesBtn.addEventListener('mouseover', function() {
-  mainRightEl.style.backgroundImage = "url('/assets/images/bg/shapelined-_JBKdviweXI-unsplash.jpg')";
-});
