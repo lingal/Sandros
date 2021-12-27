@@ -15,9 +15,14 @@ body {
   min-height: 100vh;
   color: var(--clr-dark);
   font-family: var(--ff-body);
+  line-height: 1.5;
 }
 
-img:not(.hello) {
+section {
+  padding: 3rem 0;
+}
+
+img {
   max-width: 100%;
 }
 
@@ -38,6 +43,7 @@ header {
   top: 1.5rem;
   left: 0;
   right: 0;
+  z-index: 999;
 }
 
 header .logo {
@@ -51,7 +57,6 @@ header .logo {
   border: none;
   cursor: pointer;
   position: relative;
-  z-index: 999;
 }
 
 .nav-btn .line {
@@ -126,7 +131,6 @@ header .logo {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 998;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -146,12 +150,8 @@ header .logo {
 
 /* Main */
 
-
 main {
-  display: block;
-  position: relative;
-  top: 120px;
-  z-index: -1;
+  margin-top: 100px;
 }
 
 .section-intro {
@@ -166,13 +166,131 @@ main {
 
 .section-info {
   font-size: 1.1rem;
-  letter-spacing: 3px;
-  line-height: 1.6;
+  letter-spacing: 2px;
   font-family: var(--ff-second);
-  font-weight: 300;
+  line-height: 1.8;
+  font-weight: light;
+}
+
+.img-container {
+  display: none;
+}
+
+/* contact form */
+
+.contact-me {
+  height: 100%;
+  color: var(--clr-bg);
+  color: var(--clr-dark);
+  background-color: var(--clr-dark);
+  background-color: var(--clr-bg);
+  padding: 2rem;
+  text-transform: capitalize;
+  align-content: center;
+}
+
+.contact-me h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+form {
+  display: grid;
+  grid-template-areas:
+    'fname'
+    'lname'
+    'email'
+    'text'
+    'btn';
+  margin-inline: auto;
+  width: 80vw;
+  gap: 20px;
+}
+
+.fname {
+  grid-area: fname;
+}
+
+input,
+textarea {
+  color: var(--clr-dark);
+  background-color: inherit;
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid var(--clr-dark);
+  padding: 10px 0;
+  letter-spacing: 2px;
+}
+
+.lname {
+  grid-area: lname;
+}
+input[type='email'] {
+  grid-area: email;
+}
+
+textarea {
+  grid-area: text;
+}
+
+button[type='submit'] {
+  grid-area: btn;
+  width: 7rem;
+  justify-self: center;
 }
 
 footer {
-  height: 200px;
-  background-color: var(--clr-bg);
+  background-color: var(--clr-dark);
+  height: 150px;
+  display: grid;
+  place-items: center;
+}
+
+.social-icons-container {
+  color: var(--clr-bg);
+  text-transform: uppercase;
+  width: 40%;
+  display: grid;
+  gap: 0.5rem;
+  justify-items: center;
+}
+.social-icons {
+  width: 100%;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 600px) {
+  form {
+    grid-template-areas:
+      'fname lname'
+      'email email'
+      'text text'
+      'btn btn';
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .img-container {
+    display: block;
+    width: 25rem;
+  }
+  .grid {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .social-icons {
+    width: 30%;
+  }
+  
 }

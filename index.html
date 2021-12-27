@@ -75,9 +75,7 @@
         <div class="main-content">
           <div class="intro-content">
             <!-- <p class="intro-top">INTRO</p> -->
-            <h1>
-              Hi, I'm Sandra K, a Freelance Bookkeeper.
-            </h1>
+            <h1>Hi, I'm Sandra K, a Freelance Bookkeeper.</h1>
             <div class="intro-btn">
               <a href="/about.html" class="about-me-btn">
                 <i class="fas fa-greater-than"></i>
@@ -89,10 +87,10 @@
           <div class="menu-container">
             <p>menu</p>
             <nav class="lg-screen-nav">
-              <a href="#" class="services">what i do</a>
-              <a href="#" class="reviews">reviews</a>
-              <a href="#" class="contact">contact</a>
-              <a href="#">client zone</a>
+              <a href="/services.html" class="services menu-btn">what i do</a>
+              <a href="#" class="reviews menu-btn">reviews</a>
+              <a href="#" class="contact menu-btn">contact</a>
+              <a href="/php/login_screen.php" class="menu-btn">client zone</a>
             </nav>
           </div>
 
@@ -107,26 +105,48 @@
         </div>
       </div>
       <div class="main-right">
-        <div class="bg-img-services"></div>
-        <div class="bg-img-reviews"></div>
-        <div class="bg-img-contact"></div>
+        <!-- <div class="bg-img-services bg-img"></div>
+        <div class="bg-img-reviews bg-img"></div>
+        <div class="bg-img-contact bg-img"></div> -->
       </div>
     </main>
+
+    <!-- Contact form -->
+
     <aside class="aside">
       <h3>get in touch</h3>
-      <form action="#" id="contact-form" class="contact-form">
-        <input type="text" class="fname" placeholder="Name..." />
+      <form
+        action="https://submit-form.com/8zeiZE8Q"
+        id="contact-form"
+        class="contact-form"
+      >
+        <input
+          type="text"
+          name="first"
+          class="fname"
+          placeholder="Name..."
+          required
+        />
 
-        <input type="text" class="lname" placeholder="Last name..." />
+        <input
+          type="text"
+          name="last"
+          class="lname"
+          placeholder="Last name..."
+        />
 
-        <input type="email" placeholder="Email""/>
-
-        <textarea cols="30" rows="10" placeholder="Your message"></textarea>
+        <input type="email" name="email" placeholder="Email" required />
+        <textarea
+          name="message"
+          cols="30"
+          rows="10"
+          placeholder="Your message"
+          required
+        ></textarea>
 
         <button type="submit">Submit</button>
       </form>
     </aside>
-    <footer></footer>
     <script src="/scripts/script.js"></script>
     <script src="/scripts/getInTouch.js"></script>
   </body>

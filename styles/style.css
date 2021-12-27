@@ -188,6 +188,19 @@ main {
   font-size: clamp(0.9rem, 2vw, 1.2rem);
   line-height: 1.5;
   letter-spacing: 2px;
+
+  animation-name: fadeIdIntro;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+}
+
+@keyframes fadeIdIntro {
+  from {
+    transform: translate(-100%);
+  }
+  to {
+    transform: translate(0);
+  }
 }
 
 .about-me-btn {
@@ -213,6 +226,23 @@ main {
   margin-top: 2rem;
 }
 
+.social-icons-container {
+  animation-name: fadeIdSocial;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes fadeIdSocial {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translate(0);
+  }
+}
+
+
+
 .social-icons-container p {
   color: #999;
   text-transform: uppercase;
@@ -222,6 +252,21 @@ main {
   font-size: 3rem;
   display: flex;
   justify-content: space-between;
+}
+
+.menu-container {
+  animation-name: fadeIdMenu;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+}
+
+@keyframes fadeIdMenu {
+  from {
+    transform: translate(200%);
+  }
+  to {
+    transform: translate(0);
+  }
 }
 
 .menu-container p {
@@ -239,13 +284,41 @@ main {
   gap: 2.5rem;
 }
 
+.lg-screen-nav a:hover {
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-name: fadeOut;
+}
+
+@keyframes fadeOut {
+  0% {
+    background-color: rgba(235, 255, 0, 1);
+  }
+  20% {
+    background-color: rgba(235, 255, 0, 0.8);
+  }
+  40% {
+    background-color: rgba(235, 255, 0, 0.6);
+  }
+  60% {
+    background-color: rgba(235, 255, 0, 0.4);
+  }
+  80% {
+    background-color: rgba(235, 255, 0, 0.2);
+  }
+  100% {
+    background-color: rgba(235, 255, 0, 0);
+  }
+}
+
 .main-right {
   background-color: var(--clr-bg);
   position: relative;
   z-index: -5;
 }
 
-/* .bg-img-services {
+.bg-img-services {
   height: 100%;
   width: 100%;
   background-image: -webkit-gradient(
@@ -263,8 +336,8 @@ background-position: auto;
 position: absolute;
 top: 0;
 left: 0;
-display: none;
-} */
+/* display: none; */
+}
 
 /* .bg-img-reviews {
   height: 100%;
@@ -391,13 +464,16 @@ button[type='submit'] {
   }
 
   .main-content {
+    height: calc(100% - 150px);
     width: 90vw;
+    max-width: 1600px;
     display: grid;
     grid-template-areas:
       'left right'
       'icons right';
     grid-template-columns: 1fr 1fr;
     top: 120px;
+    align-items: center;
   }
 
   .social-icons-container p {
@@ -410,6 +486,8 @@ button[type='submit'] {
     justify-content: space-between;
   }
   .menu-container {
+    height: 60vh;
+    align-self: center;
     grid-area: right;
     justify-self: right;
     text-align: right;
