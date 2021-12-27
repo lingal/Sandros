@@ -15,7 +15,7 @@
     />
 
     <!--CSS styles  -->
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
     <title>Sandra K || Bookkeeping & Payroll Services</title>
 
     <!-- Font-awesome -->
@@ -30,7 +30,7 @@
   <body>
     <header class="max-width">
       <div class="logo">
-        <img src="/SK_naujas.svg" alt="Sandra k logo" />
+        <img src="/assets/logo/sk_logo.svg" alt="Sandra k logo" />
       </div>
       <div class="header-nav">
         <button class="nav-btn" id="nav-btn">
@@ -72,44 +72,49 @@
 
     <main>
       <div class="main-left">
-        <div class="intro-content">
-          <!-- <p class="intro-top"></p> -->
-          <h1 class="intro-bottom intro-main-title">
-            I'm Sandra K, a Freelance Bookkeeper.
-          </h1>
-          <div class="about-me-btn-content">
-            <a href="/about.html" class="about-me"
-              ><i class="fas fa-greater-than"></i
-            ></a>
-            <p>About me</p>
+        <div class="main-content">
+          <div class="intro-content">
+            <!-- <p class="intro-top">INTRO</p> -->
+            <h1>
+              Hi, I'm Sandra K, a Freelance Bookkeeper.
+            </h1>
+            <div class="intro-btn">
+              <a href="/about.html" class="about-me-btn">
+                <i class="fas fa-greater-than"></i>
+                <p>About me</p>
+              </a>
+            </div>
           </div>
-        </div> 
-        <div class="social-icons-container">
-          <p>find me on</p>
-          <div class="social-icons">
-            <a href="#"><i class="fab fa-facebook-square"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-instagram-square"></i></a>
+
+          <div class="menu-container">
+            <p>menu</p>
+            <nav class="lg-screen-nav">
+              <a href="#" class="services">what i do</a>
+              <a href="#" class="reviews">reviews</a>
+              <a href="#" class="contact">contact</a>
+              <a href="#">client zone</a>
+            </nav>
+          </div>
+
+          <div class="social-icons-container">
+            <p>find me on</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-square"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram-square"></i></a>
+            </div>
           </div>
         </div>
-        <!-- <img src="" class="hello" alt="" /> -->
       </div>
       <div class="main-right">
-        <div class="menu-container">
-          <p>menu</p>
-          <nav class="lg-screen-nav">
-            <a href="#">what i do</a>
-            <a href="#">reviews</a>
-            <a href="#">contact</a>
-            <a href="#">client zone</a>
-          </nav>
-        </div>
+        <div class="bg-img-services"></div>
+        <div class="bg-img-reviews"></div>
+        <div class="bg-img-contact"></div>
       </div>
     </main>
     <aside class="aside">
       <h3>get in touch</h3>
       <form action="#" id="contact-form" class="contact-form">
-        
         <input type="text" class="fname" placeholder="Name..." />
 
         <input type="text" class="lname" placeholder="Last name..." />
@@ -122,7 +127,7 @@
       </form>
     </aside>
     <footer></footer>
-    <script src="/script.js"></script>
-    <script src="/getInTouch.js"></script>
+    <script src="/scripts/script.js"></script>
+    <script src="/scripts/getInTouch.js"></script>
   </body>
 </html>
