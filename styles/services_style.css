@@ -5,7 +5,6 @@
 :root {
   --ff-body: 'Playfair Display', serif;
   --ff-second: 'Montserrat', sans-serif;
-
   --clr-dark: #1d1b26;
   --clr-bg: #f5f5f5;
   --clr-accent: #ebff00;
@@ -17,7 +16,7 @@ body {
   font-family: var(--ff-body);
 }
 
-img:not(.hello) {
+img {
   max-width: 100%;
 }
 
@@ -27,7 +26,7 @@ a {
 }
 
 section {
-  padding: 8rem 0;
+  padding: 3rem 0;
 }
 
 .max-width {
@@ -35,135 +34,26 @@ section {
   margin: 0 auto;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  position: fixed;
-  top: 1.5rem;
-  left: 0;
-  right: 0;
-}
-
-header .logo {
-  width: 4rem;
-}
-
-.nav-btn {
-  height: 3rem;
-  width: 3rem;
-  background-color: var(--clr-accent);
-  border: none;
-  cursor: pointer;
-  position: relative;
-  z-index: 999;
-}
-
-.nav-btn .line {
-  display: block;
-  height: 0.1rem;
-  background-color: var(--clr-dark);
-  transition: all 100ms ease-in;
-}
-
-.line-middle {
-  width: 60%;
-  margin-top: 0.3rem;
-  margin-bottom: 0.3rem;
-}
-
-.line-top,
-.line-bottom {
-  width: 80%;
-  margin-inline: auto;
-}
-
-.line-top-rotate {
-  transform: rotate(45deg);
-  transform-origin: top;
-}
-
-.line-bottom-rotate {
-  transform: rotate(-45deg);
-  transform-origin: bottom;
-}
-.line-middle-hide {
-  opacity: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.header-nav .contact-btn-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background-color: var(--clr-accent);
-  font-size: 0.9rem;
-  height: 4.5rem;
-  width: 4.5rem;
-
-  display: none;
-}
-
-.header-nav .contact-btn-container .btn {
-  display: grid;
-  gap: 3px;
-}
-.header-nav .contact-btn-container .btn div > * {
-  display: inline-block;
-}
-
-.header-nav .contact-btn-container .btn div span:nth-child(1) {
-  text-transform: capitalize;
-}
-
-.header-nav .contact-btn-container .btn div span:nth-child(odd) {
-  transition: all 0.3s ease-in-out;
-}
-.header-nav .contact-btn-container:hover .btn div span:nth-child(odd) {
-  transform: translateY(-5px);
-}
-
-.sm-screen-nav {
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 998;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  background-color: var(--clr-bg);
-  font-size: 2rem;
-  text-transform: capitalize;
-  font-weight: bolder;
-  transform: translateY(-100%);
-  transition: all 300ms ease-in;
-}
-
-.show-nav-menu {
-  transform: translateY(0);
-}
-
 /* Main */
 main {
   display: grid;
   grid-template-rows: 100vh auto auto;
-
 }
 
-.title-img-block {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/office-g9102ce386_640.jpg");
-  background-position: center ;
+.bg-img {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url('/assets/office-g9102ce386_640.jpg');
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
 }
 
-.title-img-block h1 {
+.bg-img h1 {
   margin-top: 13rem;
   text-transform: capitalize;
   font-size: 2.5rem;
@@ -177,7 +67,7 @@ main {
   margin-bottom: 3rem;
 }
 
-.title-img-block p {
+.bg-img p {
   font-size: 1.75rem;
   font-weight: 200;
   line-height: 1.5;
@@ -185,6 +75,14 @@ main {
 }
 
 /* services */
+
+.section-title {
+  text-align: center;
+  margin-bottom: 5rem;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
 
 .services-containter {
   display: grid;
@@ -210,7 +108,6 @@ main {
   border: none;
 }
 
-
 .service-description {
   display: none;
   letter-spacing: 2px;
@@ -233,7 +130,174 @@ main {
   display: none;
 }
 
-footer {
-  height: 200px;
+.book-btn-container {
+  display: none;
+  font-style: italic;
+}
+
+.modal-overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  );
+  display: none;
+  place-content: center;
+}
+
+.modal-container {
+  padding: 0 1rem 1rem 1rem;
+  background-color: var(--clr-bg);
+  border-radius: 10px;
+}
+.modal-title {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+.modal-container h3 {
+  text-align: center;
+  width: 100%;
+  font-size: 2rem;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+.close-modal {
   background-color: var(--clr-dark);
+  color: var(--clr-bg);
+  border: none;
+  padding:0 0.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.modal-booking-form {
+  display: grid;
+  grid-template-areas:
+    'select date'
+    'name name'
+    'email phone'
+    'btn btn';
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.modal-booking-form input,
+select {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid var(--clr-dark);
+  width: 95%;
+}
+
+.modal-booking-form label:first-child {
+  grid-area: select;
+}
+
+.modal-booking-form label:nth-child(2) {
+  grid-area: date;
+}
+.modal-booking-form label:nth-child(3) {
+  grid-area: name;
+}
+.modal-booking-form label:nth-child(4) {
+  grid-area: email;
+}
+
+.modal-booking-form label:nth-child(5) {
+  grid-area: phone;
+}
+
+.modal-booking-form button {
+  grid-area: btn;
+  width: 30%;
+  justify-self: center;
+  padding: 0.5rem 0;
+  border-radius: 100px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  background-color: var(--clr-dark);
+  color: var(--clr-bg);
+  border: none;
+  cursor: pointer;
+}
+
+.show-modal {
+  display: grid;
+}
+
+.book-btn-container p {
+  letter-spacing: 2px;
+  text-decoration: underline;
+}
+
+.book-btn {
+  border: none;
+  border-radius: 10px;
+  padding: 0.2rem 1.5rem;
+  background-color: var(--clr-dark);
+  color: var(--clr-bg);
+  letter-spacing: 2px;
+}
+
+.booking-section {
+  width: 90vw;
+  margin-inline: auto;
+  display: grid;
+  justify-content: center;
+}
+
+.booking-form {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.booking-form input,
+select {
+  width: 100%;
+  border: none;
+  border-bottom: solid 2px var(--clr-dark);
+  background-color: transparent;
+}
+
+.booking-form button {
+  width: 50%;
+  justify-self: center;
+}
+
+@media screen and (min-width: 900px) {
+  .services-containter {
+    margin-inline: auto;
+    width: 95vw;
+    max-width: 1200px;
+    grid-template-columns: repeat(3, minmax(15rem, auto));
+    gap: 40px;
+  }
+  .service {
+    width: 100%;
+    background-color: var(--clr-bg);
+    padding: 0.2rem 0.75rem;
+  }
+
+  .service-description {
+    display: block;
+  }
+  .btn-show {
+    display: none;
+  }
+  .book-btn-container {
+    display: block;
+  }
+  .modal-container {
+    display: block;
+  }
+  .booking-section {
+    display: none;
+  }
 }

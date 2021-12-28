@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+
+:root {
+  --ff-body: 'Playfair Display', serif;
+  --ff-second: 'Montserrat', sans-serif;
+  --clr-dark: #1d1b26;
+  --clr-bg: #f5f5f5;
+  --clr-accent: #ebff00;
+}
+
+html {
+  line-height: 1.5;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--clr-dark);
+  font-family: var(--ff-body);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  padding: 4rem 0;
+}
+
+.max-width {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.bg-img {
+  height: 100vh;
+  color: var(--clr-dark);
+}
+
+.bg-img h1 {
+  padding-top: 13rem;
+  text-transform: capitalize;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+}
+
+.divider {
+  width: 90%;
+  height: 2px;
+  background-color: var(--clr-dark);
+  margin-bottom: 3rem;
+}
+
+.bg-img p {
+  font-size: 1.1rem;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.review {
+  display: grid;
+  grid-template-areas:
+    'info info'
+    'prev next';
+  background-image: url(/node_modules/bootstrap-icons/icons/quote.svg);
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: top 3px left;
+  max-width: 25rem;
+  margin: 0 auto;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.review-content {
+  grid-area: info;
+  display: grid;
+  grid-template-areas:
+    'review'
+    'author';
+  text-align: center;
+}
+
+.client-info {
+  grid-area: author;
+}
+
+.client-img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.author h4 {
+  font-size: 1.3rem;
+  margin-bottom: -1rem;
+}
+
+.review-text {
+  justify-self: center;
+  grid-area: review;
+  letter-spacing: 2px;
+  max-width: 35ch;
+  padding: 0.25rem;
+}
+
+.prev-btn {
+  grid-area: prev;
+}
+
+.next-btn {
+  grid-area: next;
+}
+
+.prev-btn,
+.next-btn {
+  align-self: center;
+  background-color: transparent;
+  color: #999;
+  height: 3rem;
+  border: none;
+  font-size: 2rem;
+  padding: 0 0.5rem;
+  cursor: pointer;
+}
+
+.prev-btn:active, 
+.next-btn:active {
+  background-color: var(--clr-accent);
+}
+
+@media screen and (min-width: 900px) {
+  .bg-img {
+    height: 70vh;
+  }
+  .bg-img h1 {
+    text-transform: capitalize;
+    font-size: 2.5rem;
+  }
+  .bg-img p {
+    font-size: 1.6rem;
+  }
+
+  section {
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    align-content: center;
+  }
+
+  .review {
+    grid-template-areas: 'prev info next';
+    grid-template-columns: auto 1fr auto;
+    max-width: 40%;
+    padding: 3rem 2rem;
+
+    background-size: 10%;
+  }
+
+  .review-content {
+    grid-area: info;
+    display: grid;
+    grid-template-areas:
+      'author'
+      'review';
+    text-align: unset;
+  }
+  .client-info {
+    display: flex;
+    gap: 1rem;
+  }
+  .client-img {
+    width: 6rem;
+    height: 6rem;
+    margin: 0;
+  }
+  .review-text {
+    justify-self: left;
+    grid-area: review;
+    letter-spacing: 2px;
+    max-width: unset;
+    padding: 0.25rem;
+  }
+}

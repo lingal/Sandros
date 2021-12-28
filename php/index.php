@@ -1,7 +1,5 @@
 <?php
 
-$content = $_GET['content_id'];
-
 session_start();
 
 if (isset($_SESSION['id']) && isset($_SESSION['first_name'])) {
@@ -168,14 +166,6 @@ if (isset($_SESSION['id']) && isset($_SESSION['first_name'])) {
             </div> -->
           </div>
 
-          <?php
-          if ($content == 'about') {
-            echo "About We are the Best";
-            // you could include a file or data from database here
-          } else {
-            echo "Some other page";
-          }
-          ?>
 
           <!-- <canvas
             class="my-4 w-100"

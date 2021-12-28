@@ -1,0 +1,15 @@
+insert into creditors (id, code, company, contact, email, area) values (1, '64376-803', 'Halvorson, Rutherford and Kozey', 'Brana Bewfield', 'bbewfield0@ebay.com', 'GR');
+insert into creditors (id, code, company, contact, email, area) values (2, '76282-257', 'Windler, Watsica and Cremin', 'Welsh Blease', 'wblease1@nsw.gov.au', 'KZ');
+insert into creditors (id, code, company, contact, email, area) values (3, '53746-103', 'Quitzon-Brekke', 'Ollie Berrow', 'oberrow2@pinterest.com', 'PH');
+insert into creditors (id, code, company, contact, email, area) values (4, '0781-5656', 'Volkman, Harris and Kilback', 'Mireille Mitroshinov', 'mmitroshinov3@ucla.edu', 'DE');
+insert into creditors (id, code, company, contact, email, area) values (5, '0363-0199', 'Schamberger, Connelly and Hermann', 'Janis Gianuzzi', 'jgianuzzi4@tinyurl.com', 'ID');
+insert into creditors (id, code, company, contact, email, area) values (6, '0615-7638', 'Kuvalis and Sons', 'Fields Kytley', 'fkytley5@china.com.cn', 'RU');
+insert into creditors (id, code, company, contact, email, area) values (7, '55154-5009', 'Satterfield, Klein and Hintz', 'Coleen Eglise', 'ceglise6@ibm.com', 'BR');
+insert into creditors (id, code, company, contact, email, area) values (8, '64679-783', 'Hintz, Smitham and Fay', 'Ilka Wayt', 'iwayt7@mtv.com', 'CN');
+insert into creditors (id, code, company, contact, email, area) values (9, '0310-0720', 'Leannon, Rice and Aufderhar', 'Kit Kingswell', 'kkingswell8@dmoz.org', 'TH');
+insert into creditors (id, code, company, contact, email, area) values (10, '53808-0367', 'Simonis and Sons', 'Blanca Martlew', 'bmartlew9@guardian.co.uk', 'PK');
+insert into creditors (id, code, company, contact, email, area) values (11, '0944-4175', 'Predovic LLC', 'Talyah Twomey', 'ttwomeya@yale.edu', 'CN');
+insert into creditors (id, code, company, contact, email, area) values (12, '76237-129', 'Roberts-Kuphal', 'Winny Trimble', 'wtrimbleb@mayoclinic.com', 'GM');
+insert into creditors (id, code, company, contact, email, area) values (13, '37000-796', 'Leannon, Cartwright and Emmerich', 'Harriet Bartocci', 'hbartoccic@narod.ru', 'RU');
+insert into creditors (id, code, company, contact, email, area) values (14, '69015-100', 'Ryan Inc', 'Elsi Henrion', 'ehenriond@woothemes.com', 'VE');
+insert into creditors (id, code, company, contact, email, area) values (15, '57902-860', 'Funk, Tremblay and Tillman', 'Jordan Ikins', 'jikinse@mapy.cz', 'SE');
