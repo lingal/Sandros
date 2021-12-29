@@ -14,12 +14,12 @@ function changeBgImg() {
 
   reviewsBtn.addEventListener('mouseover', function () {
     bgImageEl.style.opacity = '1';
-    bgImageEl.style.backgroundImage = `url(images/reviews.jpg)`;
+    bgImageEl.style.backgroundImage = `url(/assets/images/reviews.jpg)`;
   })
 
   contactBtn.addEventListener('mouseover', function () {
     bgImageEl.style.opacity = '1';
-    bgImageEl.style.backgroundImage = `url(images/image.jpg)`;
+    bgImageEl.style.backgroundImage = `url(/assets/images/image.jpg)`;
   })
 
 
