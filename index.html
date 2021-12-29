@@ -65,10 +65,10 @@
         </div>
 
         <nav class="sm-screen-nav">
-          <a href="#">services</a>
-          <a href="#">reviews</a>
-          <a href="#">contact</a>
-          <a href="#"><span>client zone</span></a>
+          <a href="/services.php">services</a>
+          <a href="/reviews.php">reviews</a>
+          <button class="contact-btn">contact</button>
+          <a href="/php/templates/login_screen.php"><span>client zone</span></a>
         </nav>
       </div>
     </header>
@@ -77,7 +77,7 @@
       <div class="main-left">
         <div class="main-content">
           <div class="intro-content">
-            <!-- <p class="intro-top">INTRO</p> -->
+            <p class="intro-top">INTRO</p>
             <h1>Hi, I'm Sandra K, a Freelance Bookkeeper.</h1>
             <div class="intro-btn">
               <a href="/about.php" class="about-me-btn">
@@ -90,27 +90,25 @@
           <div class="menu-container">
             <p>menu</p>
             <nav class="lg-screen-nav">
-              <a href="/services.php" class="services menu-btn">what i do</a>
-              <a href="/reviews.php" class="reviews menu-btn">reviews</a>
-              <a href="#" class="contact menu-btn">contact</a>
-              <a href="/php/login_screen.php" class="menu-btn">client zone</a>
+              <a href="/services.php" class="service">what i do</a>
+              <a href="/reviews.php" class="reviews">reviews</a>
+              <button id="contact" class="contact-btn">contact</button>
+              <a href="/php/templates/login_screen.php">client zone</a>
             </nav>
           </div>
 
           <div class="social-icons-container">
             <p>find me on</p>
             <div class="social-icons">
-              <a href="#"><i class="fab fa-facebook-square"></i></a>
-              <a href="#"><i class="fab fa-linkedin"></i></a>
-              <a href="#"><i class="fab fa-instagram-square"></i></a>
+              <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+              <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></a>
             </div>
           </div>
         </div>
       </div>
       <div class="main-right">
-        <!-- <div class="bg-img-services bg-img"></div>
-        <div class="bg-img-reviews bg-img"></div>
-        <div class="bg-img-contact bg-img"></div> -->
+        <div class="bg-img"></div>
       </div>
     </main>
 
@@ -151,6 +149,7 @@
       </form>
     </aside>
     <script src="/scripts/script.js"></script>
+    <script src="/scripts/bgImgChange.js"></script>
     <script src="/scripts/getInTouch.js"></script>
   </body>
 </html>

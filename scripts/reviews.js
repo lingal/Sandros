@@ -1,17 +1,18 @@
 const reviews = [
   {
     id: 1,
-    name: "susan smith",
-    job: "web developer",
+    name: "Jorie Delnevo",
+    company: "Feeney LLC",
     img:
       "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
     text:
-      "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   },
+
   {
     id: 2,
-    name: "anna johnson",
-    job: "web designer",
+    name: "Veronika Pentycross",
+    company: "Parker LLC",
     img:
       "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883409/person-2_np9x5l.jpg",
     text:
@@ -19,8 +20,8 @@ const reviews = [
   },
   {
     id: 3,
-    name: "peter jones",
-    job: "intern",
+    name: "Ashely Crolla",
+    company: "Marvin LLC",
     img:
       "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg",
     text:
@@ -28,10 +29,28 @@ const reviews = [
   },
   {
     id: 4,
-    name: "bill anderson",
-    job: "the boss",
+    name: "Adelle Minigo",
+    company: "Bednar-Haley",
     img:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883423/person-4_t9nxjt.jpg",
+      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
+    text:
+      "Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. ",
+  },
+  {
+    id: 4,
+    name: "Ives Drew-Clifton",
+    company: "Schuppe-Bayer",
+    img:
+      "https://images.pexels.com/photos/3671083/pexels-photo-3671083.jpeg?cs=srgb&dl=pexels-katie-e-3671083.jpg&fm=jpg",
+    text:
+      "Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. ",
+  },
+  {
+    id: 4,
+    name: "Olivier Casement",
+    company: "Jenkins and Sons",
+    img:
+      "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?cs=srgb&dl=pexels-chloe-1043474.jpg&fm=jpg",
     text:
       "Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. ",
   },
@@ -52,7 +71,7 @@ window.addEventListener('DOMContentLoaded', function () {
             <img src="${currentReview.img}" class="client-img" alt="client photo">
             <div class="author">
               <h4 class="client">${currentReview.name}</h4>
-              <p class="company-name">${currentReview.job}</p>
+              <p class="company-name">${currentReview.company}</p>
             </div>
           </div>
           <p class="review-text">
@@ -78,7 +97,7 @@ nextBtn.addEventListener('click', function () {
     <img src="${reviews[counter].img}" class="client-img" alt="client photo">
     <div class="author">
       <h4 class="client">${reviews[counter].name}</h4>
-      <p class="company-name">${reviews[counter].job}</p>
+      <p class="company-name">${reviews[counter].company}</p>
     </div>
   </div>
   <p class="review-text">
@@ -93,14 +112,14 @@ nextBtn.addEventListener('click', function () {
 prevBtn.addEventListener('click', function() {
   counter--;
   if(counter < 0) {
-    counter = reviews.length -1;
+    counter = reviews.length-1;
   }
   let html = `
     <div class="client-info">
     <img src="${reviews[counter].img}" class="client-img" alt="client photo">
     <div class="author">
       <h4 class="client">${reviews[counter].name}</h4>
-      <p class="company-name">${reviews[counter].job}</p>
+      <p class="company-name">${reviews[counter].company}</p>
     </div>
   </div>
   <p class="review-text">

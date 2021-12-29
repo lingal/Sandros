@@ -32,10 +32,10 @@
         </div>
 
         <nav class="sm-screen-nav" style="display: flex;">
-          <a href="#">services</a>
-          <a href="#">reviews</a>
-          <a href="#">contact</a>
-          <a href="#"><span>client zone</span></a>
+          <a href="/services.php">services</a>
+          <a href="/reviews.php">reviews</a>
+          <button class="contact-btn">contact</button>
+          <a href="./php/templates/login_screen.php"><span>client zone</span></a>
         </nav>
       </div>
     </header>

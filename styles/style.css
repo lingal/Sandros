@@ -156,16 +156,29 @@ a {
 
 .lg-screen-nav {
   display: none;
-  flex-direction: column;
   font-size: 2.8rem;
   font-weight: 700;
   text-transform: capitalize;
   gap: 2.5rem;
+  justify-items: right;
 }
 
 .lg-screen-nav a:hover {
   animation-duration: 1s;
-  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-name: fadeOut;
+}
+
+.lg-screen-nav button {
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.lg-screen-nav button:hover {
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-name: fadeOut;
 }
@@ -196,63 +209,25 @@ a {
   position: relative;
   z-index: -5;
 }
-
-.bg-img-services {
+.bg-img {
   height: 100%;
   width: 100%;
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0.3)),
-      to(rgba(0, 0, 0, 0.3))
-    ),
-    url(/assets/images/services.jpg);
-
   background-size: cover;
   background-repeat: no-repeat;
   background-position: auto;
   position: absolute;
   top: 0;
   left: 0;
-  /* display: none; */
 }
-
-/* .bg-img-reviews {
-  height: 100%;
+.main-right::after {
+  content: '';
   width: 100%;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(rgba(255, 252, 252, 0.4)),
-    to(rgba(255, 255, 255, 0.4)))
-  ,
-  url(/assets/images/stil-N9uOrBICcjY-unsplash.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-position: absolute;
-top: 0;
-left: 0;
-} */
-
-/* .bg-img-contact {
   height: 100%;
-  width: 100%;
-  background-image: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.3)
-    ),
-    url(/assets/images/istockphoto-1063345972-2048x2048.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   position: absolute;
   top: 0;
   left: 0;
-} */
+  background-color: rgba(255, 255, 255, 0.589);
+}
 
 /* contact form */
 
@@ -366,6 +341,6 @@ left: 0;
     font-size: 1.5rem;
   }
   .lg-screen-nav {
-    display: flex;
+    display: grid;
   }
 }

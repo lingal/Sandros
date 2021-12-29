@@ -1,10 +1,17 @@
-const contactBtn = document.querySelector('.contact-btn');
+const contactBtns = document.querySelectorAll('.contact-btn');
 const contactForm = document.querySelector('.aside');
 const contact = document.getElementById('contact-form');
 
 
+function navToContact() {
 
-contactBtn.addEventListener('click', function() {
-  contactForm.style.display = 'grid';
-  contact.scrollIntoView(true);
-})
+  contactBtns.forEach(function (btn) {
+    btn.addEventListener('click', function (e) {
+      console.log(e.currentTarget);
+      contactForm.style.display = 'grid';
+      contact.scrollIntoView(true);
+    })
+  })
+}
+
+navToContact();

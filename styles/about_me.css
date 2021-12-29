@@ -96,10 +96,6 @@ form {
   gap: 20px;
 }
 
-.fname {
-  grid-area: fname;
-}
-
 input,
 textarea {
   color: var(--clr-dark);
@@ -111,6 +107,10 @@ textarea {
   border-bottom: 1px solid var(--clr-dark);
   padding: 10px 0;
   letter-spacing: 2px;
+}
+
+.fname {
+  grid-area: fname;
 }
 
 .lname {
@@ -131,14 +131,14 @@ button[type='submit'] {
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
   form {
     grid-template-areas:
       'fname lname'
       'email email'
       'text text'
       'btn btn';
-    width: 40%;
+    width: 60%;
   }
 }
 
@@ -156,8 +156,4 @@ button[type='submit'] {
     justify-content: center;
     gap: 2rem;
   }
-  .social-icons {
-    width: 30%;
-  }
-  
 }

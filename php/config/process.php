@@ -30,7 +30,7 @@ if (isset($_POST['clientId']) && isset($_POST['password'])) {
         $_SESSION['client_id'] = $row['clientId'];
         $_SESSION['first_name'] = $row['first_name'];
         $_SESSION['id'] = $row['id'];
-        header('Location: index.php');
+        header('Location: /php/index.php');
         exit();
       }
     } else {

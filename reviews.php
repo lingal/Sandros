@@ -2,17 +2,21 @@
 <html lang="en">
 
 <head>
-  <?php include 'head.php'; ?>
+  <?php include './templates/head.php';?>
+
+  
 
   <link rel="stylesheet" href="/styles/reviews-style.css">
+
+  <title>Sandra K || Reviews</title>
 </head>
 
 <body>
-  <?php include 'header.php'; ?>
+  <?php include './templates/header.php';?>
 
   <main>
     <div class="bg-img">
-      <div class="max-width">
+      <div class="max-width title-text">
         <h1>what clients say</h1>
         <div class="divider">&nbsp</div>
         <p>
@@ -50,7 +54,7 @@
     </section>
   </main>
 
-  <?php include 'footer.php' ?>
+  <?php include './templates/footer.php' ?>
 
   <script src="scripts/reviews.js"></script>
   <script src="/scripts/script.js"></script>

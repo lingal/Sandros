@@ -11,7 +11,7 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
 
-  <title>Document</title>
+  <title>Log In</title>
 
   <style>
     body {
@@ -24,10 +24,10 @@
 
     header {
       width: 90vw;
-      max-width: 1000px;
+      max-width: 1400px;
       margin-inline: auto;
       justify-self: left;
-      font-size: 1.5rem;
+      font-size: 2rem;
     }
 
     main {
@@ -70,12 +70,12 @@
 
 <body>
   <header>
-    <i class="bi bi-arrow-left-square"></i>
+    <a href="/index.html"><i class="bi bi-arrow-left-square"></i></a>
   </header>
   <main>
 
     <img src="/node_modules/bootstrap-icons/icons/person-circle.svg" alt="" />
-    <form action="process.php" method="post">
+    <form action="/php/config/process.php" method="post">
       <?php if (isset($_GET['error'])){ ?>
         <p class="error-msg"><?php echo $_GET['error'];?></p>
         <?php } ?>

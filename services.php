@@ -2,18 +2,16 @@
 <html lang="en">
 
 <head>
-  <?php include 'head.php'; ?>
+  <?php include './templates/head.php'; ?>
   <link rel="stylesheet" href="/styles/services_style.css">
+  <title>Sandra K || Services</title>
 </head>
 
 <body>
-  <?php include 'header.php'; ?>
-
-
+  <?php include './templates/header.php'; ?>
   <main>
-    <!-- bg-img -->
     <div class="bg-img">
-      <div class="max-width">
+      <div class="max-width title-text">
         <h1>what i do</h1>
         <div class="divider">&nbsp</div>
         <p>
@@ -21,10 +19,8 @@
           payroll, I am fully qualified and committed to what I do. I rely on
           my reputation for excellence and all my clients receive the same
           dedicated service.
-
         </p>
       </div>
-
     </div>
 
     <!-- services -->
@@ -155,7 +151,7 @@
               <i class="fas fa-times"></i>
             </button>
           </div>
-          <form action="" method="POST" class="modal-booking-form">
+          <form action="https://submit-form.com/8zeiZE8Q" method="POST" class="modal-booking-form">
             <label>
               <p>Select a service</p>
               <select name="services">
@@ -224,10 +220,11 @@
     </section>
   </main>
 
-  <?php include 'footer.php' ?>
+  <?php include './templates/footer.php' ?>
 
-  <script src="scripts/services.js"></script>
   <script src="/scripts/script.js"></script>
+  <script src="/scripts/services.js"></script>
+  <script src="/scripts/getInTouch.js"></script>
 </body>
 
 </html>
