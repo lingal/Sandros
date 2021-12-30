@@ -114,7 +114,7 @@
           </div>
           <div class="service-description">
             <p>
-              We provide a wide range of payroll services to meet all of your company’s payroll needs – whether you need outsourcing support or personal advice, can help you compile your employees‘ payslips and organise your payroll with efficiency.
+              I provide a wide range of payroll services to meet all of your company’s payroll needs – whether you need outsourcing support or personal advice, can help you compile your employees‘ payslips and organise your payroll with efficiency.
             <div class="book-btn-container">
               <p>Book a free 15 mins consulatation</p>
               <button class="book-btn">Book</button>

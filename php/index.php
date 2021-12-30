@@ -18,6 +18,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['first_name'])) {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 
     <link href="/styles/client_acc.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles/sidebars.css">
   </head>
 
   <body>
@@ -73,7 +74,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['first_name'])) {
               mb-3
               border-bottom
             ">
-            <h1 class="h2">Welcome back, <?php echo $_SESSION['first_name']; ?>!</h1>
+            <h1 class="h2">Welcome, <?php echo $_SESSION['first_name']; ?>!</h1>
           </div>
 
           <div class="main-content"></div>
